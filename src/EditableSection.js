@@ -21,6 +21,7 @@ class EditableSection extends Component {
           title="Location"
           onChange={this.props.onLocationChange}
           value={this.props.location}
+          locations={this.props.locations}
         />
       </div>
     );

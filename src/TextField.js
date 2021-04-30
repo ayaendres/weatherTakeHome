@@ -1,20 +1,23 @@
 import React, { Component } from "react";
 import "./styles/TextField.css";
 
-class TextField extends Component {
-  render() {
+const TextField = (props) => {
+    const {locations} = props;
     return (
       <div className="inputWrapper">
-        <p>{this.props.title}</p>
+        <p>{props.title}</p>
         <input
           className="textField"
           type="text"
-          onChange={this.props.onChange}
-          value={this.props.value}
+          list={"locations"}
+          onChange={props.onChange}
+          value={props.value}
         />
+          <datalist id={"locations"}>
+              {locations.map((location) => <option value={location}/> )}
+          </datalist>
       </div>
     );
-  }
 }
 
 export default TextField;
