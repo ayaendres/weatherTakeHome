@@ -112,6 +112,9 @@ const App = () => {
         <DataWrapper>
             {({weatherData}) => {
                 if (weatherData) {
+                    if (weatherData.error) {
+                        return <div>{weatherData.error}</div>
+                    }
                     return (
                         <div className="App">
                             <EditableSection
