@@ -1,3 +1,13 @@
+Hi I'm Aya Endres (she/her). Here's my submission for the Appian Weather TakeHome! Some notes about this project:
+
+I used npm to install packages and run the project. I assume it should behave nearly the same using yarn, but I'm not actually familiar with yarn so I don't want to confirm that either way.
+I did my best not to broaden the scope of the project while still getting any bells and whistles I felt necessary. What that means is I didn't make any changes to the overall page structure, but I did edit some given components to my needs.
+
+Please let me know if you have any questions (ayaendres@gmail.com)
+
+Thanks for taking the time to view this 😄
+
+--------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
